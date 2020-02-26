@@ -252,11 +252,11 @@ else
 	}
 	thanks:
 echo "\n";	
-echo "\e[93m╔══════════════════════════════════╗\n";
-echo "\e[93m║            Terimakasih           ║\n";
-echo "\e[93m║     THANKS TO SUPPORT GOJEK      ║\n";
-echo "\e[93m║              RAMA4RT             ║\n";
-echo "\e[93m╚══════════════════════════════════╝\n";
+echo "\e[93m      ╔══════════════════════════════════╗\n";
+echo "\e[93m      ║            Terimakasih           ║\n";
+echo "\e[93m      ║     THANKS TO SUPPORT GOJEK      ║\n";
+echo "\e[93m      ║              RAMA4RT             ║\n";
+echo "\e[93m      ╚══════════════════════════════════╝\n";
 echo "\n";
 goto ulang;
 
