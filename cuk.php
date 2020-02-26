@@ -20,7 +20,7 @@ echo "\n";
 				  echo "\e[93m      ║ 3. VOUCHER GORIDE 8K GOPAY       ║\n";
 				  echo "\e[93m      ║ 4. VOUCHER GOCAR 8K GOPAY        ║\n";
 				  echo "\e[93m      ║ 5. VOUCHER GORIDE 3K             ║\n";
-				  echo "\e[93m      ║ 6. VOUCHER GOCAR CASBACK 5K      ║\n";
+				  echo "\e[93m      ║ 6. VOUCHER GOCAR CASHBACK 5K     ║\n";
 				  echo "\e[93m      ║                                  ║\n";
 				  echo "\e[93m      ║▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬║\n";
 				  echo "\e[93m      ║\e[94m              RAMA4RT             \e[93m║\n";
