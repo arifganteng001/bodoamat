@@ -1,31 +1,30 @@
+<?php
+
 date_default_timezone_set('Asia/Jakarta');
 error_reporting(0);
-if (!file_exists('token')) {
-    mkdir('token', 0777, true);
-}
 include ("goride.php");
 echo "\n";
 echo "\n";
-				  echo "\e[91m              Time:".date('[d-m-Y] [H:i:s]')."\n";
-				  echo "\e[92m          ╔══════════════════════════════════╗\n";
-				  echo "\e[92m          ║  SELAMAT DATANG DI TERMUX GOJEK  ║\n";
-				  echo "\e[92m          ║ AUTO REGISTRASI & REDEEM VOUCHER ║\n";
-				  echo "\e[92m          ║   UNTUK REGISTRASI CALL ADMIN    ║\n";
-				  echo "\e[92m          ║      WHATSAPP 082165550209       ║\n";
-				  echo "\e[92m          ╚══════════════════════════════════╝\n";
-				  echo "\e[93m          ╔══════════════════════════════════╗\n";
-				  echo "\e[93m          ║\e[91mVOUCHER YANG TERSEDIA \e[93m║\n";
-				  echo "\e[93m          ║▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬║\n";
-				  echo "\e[93m          ║ 1. VOUCHER GOFOOD 15K MINBEL 30K ║\n";
-				  echo "\e[93m          ║ 2. VOUCHER GOFOOD 10K MINBEL 30K ║\n";
-				  echo "\e[93m          ║ 3. VOUCHER GORIDE 8K GOPAY       ║\n";
-				  echo "\e[93m          ║ 4. VOUCHER GOCAR 8K GOPAY        ║\n";
-				  echo "\e[93m          ║ 5. VOUCHER GORIDE 3K             ║\n";
-				  echo "\e[93m          ║ 6. VOUCHER GOCAR CASBACK 5K      ║\n";
-				  echo "\e[93m          ║                                  ║\n";
-				  echo "\e[93m          ║▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬║\n";
-				  echo "\e[93m          ║\e[94mZY      TERMUX        \e[93m║\n";
-				  echo "\e[93m          ╚══════════════════════════════════╝\n";
+				  echo "\e[91m       Time:".date('[d-m-Y] [H:i:s]')."\n";
+				  echo "\e[92m    ╔══════════════════════════════════╗\n";
+				  echo "\e[92m    ║  SELAMAT DATANG DI TERMUX GOJEK  ║\n";
+				  echo "\e[92m    ║ AUTO REGISTRASI & REDEEM VOUCHER ║\n";
+				  echo "\e[92m    ║   UNTUK REGISTRASI CALL ADMIN    ║\n";
+				  echo "\e[92m    ║      WHATSAPP 08216xxxxxxx       ║\n";
+				  echo "\e[92m    ╚══════════════════════════════════╝\n";
+				  echo "\e[93m    ╔══════════════════════════════════╗\n";
+				  echo "\e[93m    ║\e[91m       VOUCHER YANG TERSEDIA \e[93m║\n";
+				  echo "\e[93m    ║▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬║\n";
+				  echo "\e[93m    ║ 1. VOUCHER GOFOOD 15K MINBEL 30K ║\n";
+				  echo "\e[93m    ║ 2. VOUCHER GOFOOD 10K MINBEL 30K ║\n";
+				  echo "\e[93m    ║ 3. VOUCHER GORIDE 8K GOPAY       ║\n";
+				  echo "\e[93m    ║ 4. VOUCHER GOCAR 8K GOPAY        ║\n";
+				  echo "\e[93m    ║ 5. VOUCHER GORIDE 3K             ║\n";
+				  echo "\e[93m    ║ 6. VOUCHER GOCAR CASBACK 5K      ║\n";
+				  echo "\e[93m    ║                                  ║\n";
+				  echo "\e[93m    ║▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬║\n";
+				  echo "\e[93m    ║\e[94m        RAMA4RT       \e[93m║\n";
+				  echo "\e[93m    ╚══════════════════════════════════╝\n";
 	echo "\n";
 	echo "\n";
 	echo "\n";
@@ -55,8 +54,8 @@ else
 {
 		echo "\e[93m╚══════════════════════════════════╝\n";	
 		echo "\e[91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-		echo "\e[91m[X] Masukan User Registrasi [X]\n";
-		echo "\e[91m[X]    Segera DONASI 800K   [X]\n";
+		echo "\e[91m[X] Masukkan User Registrasi [X]\n";
+		echo "\e[91m[X]      Segera DONASI       [X]\n";
 		echo "\e[91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
 goto login;
 }
@@ -80,7 +79,7 @@ echo "\e[91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
     {
     otp:
 echo "\e[91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
-    echo "\e[92m[✓] Masukan Kode OTP : ";
+    echo "\e[92m[✓] Masukkan Kode OTP : ";
     $otp = trim(fgets(STDIN));
     $verif = verif($otp, $register);
 	if ($verif == false)
@@ -266,3 +265,5 @@ echo "\e[93m╚═════════════════════�
 echo "\n";
 echo "\n";
 goto ulang;
+
+?>
