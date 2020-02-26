@@ -26,9 +26,6 @@ echo "\n";
 				  echo "\e[93m      ║\e[94m              RAMA4RT             \e[93m║\n";
 				  echo "\e[93m      ╚══════════════════════════════════╝\n";
 	echo "\n";
-	echo "\n";
-	echo "\n";
-	echo "\n";
 echo "\e[93m╔══════════════════════════════════╗\n";
 echo "\e[93m║ \e[91m[?] Sudah Punya User Login ?: ";	
 $pilihy = trim(fgets(STDIN));
@@ -61,7 +58,6 @@ goto login;
 }
 	return rtrim( $input, "\n" );
 ulang:
-echo "\n";
 echo "\n";
 echo "\e[92m        Selamat Datang $input         \n";
 echo "\e[91m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬\n";
@@ -255,14 +251,12 @@ else
 			}
 	}
 	thanks:
-echo "\n";
 echo "\n";	
 echo "\e[93m╔══════════════════════════════════╗\n";
 echo "\e[93m║            Terimakasih           ║\n";
 echo "\e[93m║     THANKS TO SUPPORT GOJEK      ║\n";
-echo "\e[93m║                                  ║\n";
+echo "\e[93m║              RAMA4RT             ║\n";
 echo "\e[93m╚══════════════════════════════════╝\n";
-echo "\n";
 echo "\n";
 goto ulang;
 
