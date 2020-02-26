@@ -7,7 +7,7 @@ echo "\n";
 echo "\n";
 				  echo "\e[91m         Time:".date('[d-m-Y] [H:i:s]')."\n";
 				  echo "\e[92m      ╔══════════════════════════════════╗\n";
-				  echo "\e[92m      ║  SELAMAT DATANG DI TERMUX GOJEK  ║\n";
+				  echo "\e[92m      ║   SELAMAT DATANG DI MENU GOJEK   ║\n";
 				  echo "\e[92m      ║ AUTO REGISTRASI & REDEEM VOUCHER ║\n";
 				  echo "\e[92m      ║   UNTUK REGISTRASI CALL ADMIN    ║\n";
 				  echo "\e[92m      ║      WHATSAPP 08216xxxxxxx       ║\n";
